@@ -3,7 +3,7 @@
 # Overview
 TravelWise is an iOS app that helps travellers gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and its **UIKit** framework. **Two APIs** are used for fetching data. More about API usage [here].
 
-FOR VIDEO DEMNOSTRATION PLEASE REFER TO THE FOLLOWING ANCHORS: 
+FOR VIDEO DEMONSTRATION PLEASE REFER TO THE FOLLOWING ANCHORS: 
 
 [Flights Section Demo](#flights-section-demo)
 
