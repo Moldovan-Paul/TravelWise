@@ -7,7 +7,7 @@ FOR VIDEO DEMONSTRATION PLEASE REFER TO THE FOLLOWING ANCHORS:
 
 [Flights Section Demo](#flights-section-demo)
 
-### Flights Section
+# Flights Section
 
 The user is presented with multiple interactable fields that represent information based on which the search for available flights will be made:
 * ***Leaving From*** **Text Field** - represents the airport that the desired flight will leave from; the user will input it from the keyboard and will select a valid airport from the presented suggestion list
@@ -21,13 +21,32 @@ Users can double check their choice by observing the airports **3 letter IATA co
 
 Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the airline's name and logo, departure and arrival times, flight duration, number of stops and price (including the return flight if a search was performed for a round trip).
 
-
-
 ### Flights Section Demo
 
 The following video shows this section's functionality through an example of both round trip and one way flight searches.
 
 https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
+
+
+
+# Accommodations Section
+
+The user is presented with multiple interactable fields that represent information based on which the search for available accommodations will be made:
+* ***Location*** **Text Field** - represents the location of the desired accommodation; the user will input it from the keyboard and will select a valid city or region from the presented suggestion list
+* **Minimum Star Rating** - a series of interactable buttons that when tapped change the minimum star rating of the desired accommodation
+* **Check In Date**
+* **Check Out Date**
+* **Number of Adult Guests**
+
+Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, adress, number of rooms left that are available, star rating and price for one night.
+
+### Accommodations Section Demo
+
+The following video shows this section's functionality through an example of an accommodation search.
+
+https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
+
+
 
 
 
