@@ -19,7 +19,7 @@ The user is presented with multiple interactable fields that represent informati
 
 Users can double check their choice by observing the airports **3 letter IATA codes** in the bottom right corner of their respective text fields.
 
-Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the airline's name and logo, departure and arrival times, flight duration, number of stops and price (including the return flight is a search was performed for a round trip).
+Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the airline's name and logo, departure and arrival times, flight duration, number of stops and price (including the return flight if a search was performed for a round trip).
 
 ### Flights Section Demo
 
