@@ -1,11 +1,11 @@
 # About TravelWise
 <img width="500" alt="Flight Screen" src="https://user-images.githubusercontent.com/98110966/190630679-b41791bc-aff7-4808-bf7b-feafcb9298ad.png"><img width="500" alt="Accommodation Screen" src="https://user-images.githubusercontent.com/98110966/190630713-4f8e7474-d5d8-4d36-b9aa-922b935f8f3d.png">
 # Overview
-TravelWise is an iOS app that helps travellers gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and its **UIKit** framework.
+TravelWise is an iOS app that helps travellers gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and its **UIKit** framework. Two APIs are used for fetching data about flights and accommodations. More about API usage [here].
 
-FOR VIDEO DEMNOSTRATION PLEASE REFER TO THE FOLLOWING SECTIONS: 
+FOR VIDEO DEMNOSTRATION PLEASE REFER TO THE FOLLOWING ANCHORS: 
 
-[Flights section demo](#flights-section-demo)
+[Flights Section Demo](#flights-section-demo)
 
 ### Flights Section
 
@@ -20,6 +20,8 @@ The user is presented with multiple interactable fields that represent informati
 Users can double check their choice by observing the airports **3 letter IATA codes** in the bottom right corner of their respective text fields.
 
 Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the airline's name and logo, departure and arrival times, flight duration, number of stops and price (including the return flight if a search was performed for a round trip).
+
+
 
 ### Flights Section Demo
 
