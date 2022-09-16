@@ -38,7 +38,13 @@ The user is presented with multiple interactable fields that represent informati
 * **Check Out Date**
 * **Number of Adult Guests**
 
-Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, adress, number of rooms left that are available, star rating and price for one night.
+Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, adress, number of rooms left that are available, star rating and price for one night. The user can sort the results by pressing the button provided in the top right corner of the results screen and choosing one of the following 6 criteria: 
+* Best Selling
+* Price (Ascending)
+* Price (Descending)
+* Star Rating (Highest First)
+* Star Rating (Lowest First)
+* Guest Rating
 
 ### Accommodations Section Demo
 
