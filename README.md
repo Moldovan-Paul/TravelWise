@@ -10,7 +10,7 @@ The user is presented with multiple interactable fields that represent informati
 * ***Going To***  **Text Field** - represents the airport that the desired flight will land on; the user will input it from the keyboard and will select a valid airport from the presented suggestion list
 * **One Way button** - a toggleable option that when selected will make the app omit returning flights
 * **Departure date**
-* **Return date** - if one way flight search is not selected, represents the date of departure of the returning flight
+* **Return date** - if one way flight search is not selected, represents the date of departure of the returning flight, otherwise, this field is not available
 * **Number of adult passengers**
 
 Users can double check their choice by observing the airports **3 letter IATA codes** in the bottom right corner of their respective text fields.
