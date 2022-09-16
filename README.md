@@ -17,4 +17,4 @@ Users can double check their choice by observing the airports **3 letter IATA co
 
 ### Flights Section Demo
 
-The following GIF shows an example of both round trip and one way flight searches.
+The following GIF shows this section's functionality through an example of both round trip and one way flight searches.
