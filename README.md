@@ -3,6 +3,10 @@
 # Overview
 TravelWise is an iOS app that helps travellers gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and its **UIKit** framework.
 
+FOR VIDEO DEMNOSTRATION PLEASE REFER TO THE FOLLOWING SECTIONS: 
+
+[Flights section demo](#flights-section-demo)
+
 ### Flights Section
 
 The user is presented with multiple interactable fields that represent information based on which the search for available flights will be made:
@@ -15,6 +19,13 @@ The user is presented with multiple interactable fields that represent informati
 
 Users can double check their choice by observing the airports **3 letter IATA codes** in the bottom right corner of their respective text fields.
 
+Upon pressing the **Search Button**, a new view displays the results. Each result contains information regarding
+
 ### Flights Section Demo
 
-The following GIF shows this section's functionality through an example of both round trip and one way flight searches.
+The following video shows this section's functionality through an example of both round trip and one way flight searches.
+
+https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
+
+
+
