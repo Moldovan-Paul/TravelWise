@@ -10,6 +10,9 @@ FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHORS:
 
 [Flights Section Demo](#flights-section-demo)
 
+
+[Accommodations Section Demo](#accommodations-section-demo)
+
 # Flights Section
 
 The user is presented with multiple interactable fields that represent information based on which the search for available flights will be made:
@@ -69,9 +72,11 @@ The user can **sort the results** by pressing the button provided in the top rig
 
 ### Accommodations Section Demo
 
-The following video shows this section's functionality through an example of an accommodation search. When the user scrolls to the bottom of the first few available results, more are loaded (infinite scrolling).
+The following video shows this section's functionality through an example of an accommodation search. The results are subsequently sorted by ascending prices. When the user scrolls to the bottom of the first few available results, more are loaded (infinite scrolling).
 
-https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
+
+https://user-images.githubusercontent.com/98110966/190852090-9e62e488-1b9f-46d9-a54c-ca5af3fabd72.mp4
+
 
 # API Usage
 
@@ -82,7 +87,11 @@ The first screen of each section makes an API call after the user has input 3 or
 <img width="200" heigth="200" alt="Airport Suggestions" src="https://user-images.githubusercontent.com/98110966/190848808-f2b6b0fe-c5ed-49d8-8d48-641eed35d43b.png">
 <img width="200" heigth="200" alt="Accommodation Suggestions" src="https://user-images.githubusercontent.com/98110966/190848671-f75e8dcd-ba87-4296-b205-e04f8b133318.png">
 </p>
+
+
 Upon pressing the **Search Button**, a new API call is made with the parameters chosen by the user and the response entity is used for filling the results screen's cells. For the accommodations section, each time the user choses a **sorting criteria**, a new API call is made with said criteria, keeping other parameters unchanged.
+
+
 **Infinite scrolling** is implemented. Each time the user scrolls to the bottom of the result list, a new API call is made, loading more data. An **activity indicator** informs the user that more data is loading. For video demonstration refer to the [Flights Section Demo](#flights-section-demo) or [Accommodations Section Demo](#accommodations-section-demo).
 
 <p align="center">
