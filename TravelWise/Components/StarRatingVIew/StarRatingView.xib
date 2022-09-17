@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StarRatingView" customModule="TravelWise" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="5jO-X5-1c0"/>
+                <outlet property="label" destination="Nbl-zU-SFf" id="4i5-jd-tWb"/>
+                <outlet property="stackView" destination="KN5-i0-KUk" id="tky-dT-vSq"/>
+                <outlet property="star1" destination="2Uq-i8-EVH" id="ZuR-iK-M2X"/>
+                <outlet property="star2" destination="bhJ-38-Ufq" id="lXf-xQ-t8P"/>
+                <outlet property="star3" destination="8Ew-Ls-Bba" id="FZJ-9M-Woz"/>
+                <outlet property="star4" destination="9wc-a9-Tvo" id="HMK-aI-wKk"/>
+                <outlet property="star5" destination="mwg-X4-aaC" id="40L-Cc-5KP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="MIN. RATING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbl-zU-SFf">
+                    <rect key="frame" x="20" y="10" width="374" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" name="grayLabelText"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-zs-uBf">
+                    <rect key="frame" x="20" y="30" width="374" height="24"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KN5-i0-KUk">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Uq-i8-EVH">
+                                    <rect key="frame" x="0.0" y="0.0" width="68.5" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="oneStar" destination="-1" eventType="touchUpInside" id="8ag-YX-oie"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhJ-38-Ufq">
+                                    <rect key="frame" x="76.5" y="0.0" width="68.5" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="twoStars" destination="-1" eventType="touchUpInside" id="tM4-X1-Y5W"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ew-Ls-Bba">
+                                    <rect key="frame" x="153" y="0.0" width="68" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="threeStars" destination="-1" eventType="touchUpInside" id="Mro-fi-mAR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wc-a9-Tvo">
+                                    <rect key="frame" x="229" y="0.0" width="68.5" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="fourStars" destination="-1" eventType="touchUpInside" id="heP-5u-SnA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwg-X4-aaC">
+                                    <rect key="frame" x="305.5" y="0.0" width="68.5" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="fiveStars" destination="-1" eventType="touchUpInside" id="nHL-LJ-Gm5"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="4pO-iP-prx"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="KN5-i0-KUk" firstAttribute="centerY" secondItem="TeU-zs-uBf" secondAttribute="centerY" id="Hpb-yB-4uE"/>
+                        <constraint firstItem="KN5-i0-KUk" firstAttribute="leading" secondItem="TeU-zs-uBf" secondAttribute="leading" id="bRA-cf-kYa"/>
+                        <constraint firstAttribute="trailing" secondItem="KN5-i0-KUk" secondAttribute="trailing" id="cVU-7z-Y8Y"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.95294117647058818" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nbl-zU-SFf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="4wr-qM-4Hd"/>
+                <constraint firstAttribute="trailing" secondItem="TeU-zs-uBf" secondAttribute="trailing" constant="20" id="9As-oc-TH4"/>
+                <constraint firstAttribute="bottom" secondItem="TeU-zs-uBf" secondAttribute="bottom" constant="10" id="NNp-pj-48S"/>
+                <constraint firstItem="TeU-zs-uBf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Ztc-MO-mCE"/>
+                <constraint firstItem="Nbl-zU-SFf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="mJp-qD-KMC"/>
+                <constraint firstAttribute="trailing" secondItem="Nbl-zU-SFf" secondAttribute="trailing" constant="20" id="n6T-vd-Bhf"/>
+                <constraint firstItem="TeU-zs-uBf" firstAttribute="top" secondItem="Nbl-zU-SFf" secondAttribute="bottom" constant="8" id="zZH-E4-O8u"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-90" y="-557.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <namedColor name="grayLabelText">
+            <color red="0.57002515313199875" green="0.57566896652934529" blue="0.57566896652934529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

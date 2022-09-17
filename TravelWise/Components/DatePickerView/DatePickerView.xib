@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DatePickerView" customModule="TravelWise" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="EWT-NE-JOG"/>
+                <outlet property="firstLabel" destination="cBA-zu-Pfu" id="dqk-t5-aPO"/>
+                <outlet property="firstUIDatePicker" destination="y91-0U-P4q" id="fEH-aD-4xz"/>
+                <outlet property="secondLabel" destination="y8x-Cc-FVT" id="OLE-n3-BiN"/>
+                <outlet property="secondUIDatePicker" destination="SpQ-Ss-4KS" id="L6z-4v-g3s"/>
+                <outlet property="separatingLine" destination="5Vp-aq-Eni" id="4pF-RY-rCL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="527" height="183"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" placeholderIntrinsicWidth="127" placeholderIntrinsicHeight="115" translatesAutoresizingMaskIntoConstraints="NO" id="5Vp-aq-Eni">
+                    <rect key="frame" x="263" y="0.0" width="1" height="183"/>
+                    <color key="backgroundColor" red="0.81568627450980391" green="0.81568627450980391" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="syE-Eh-QkJ"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="second label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8x-Cc-FVT" userLabel="second label">
+                    <rect key="frame" x="284" y="10" width="223" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" name="grayLabelText"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="first label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBA-zu-Pfu" userLabel="first label">
+                    <rect key="frame" x="20" y="10" width="223" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" name="grayLabelText"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" verticalCompressionResistancePriority="730" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="y91-0U-P4q" userLabel="first date">
+                    <rect key="frame" x="20" y="30" width="223" height="143"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <locale key="locale" localeIdentifier="en_001"/>
+                </datePicker>
+                <datePicker contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="SpQ-Ss-4KS" userLabel="second date">
+                    <rect key="frame" x="284" y="30" width="223" height="143"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <locale key="locale" localeIdentifier="en_001"/>
+                </datePicker>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.95294117647058818" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cBA-zu-Pfu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="1Ef-1N-qdl"/>
+                <constraint firstItem="SpQ-Ss-4KS" firstAttribute="top" secondItem="y8x-Cc-FVT" secondAttribute="bottom" constant="8" id="1a6-bi-NIc"/>
+                <constraint firstItem="y8x-Cc-FVT" firstAttribute="leading" secondItem="5Vp-aq-Eni" secondAttribute="trailing" constant="20" id="2qc-UG-2Zb"/>
+                <constraint firstAttribute="trailing" secondItem="SpQ-Ss-4KS" secondAttribute="trailing" constant="20" id="8RU-zv-HvI"/>
+                <constraint firstItem="5Vp-aq-Eni" firstAttribute="leading" secondItem="y91-0U-P4q" secondAttribute="trailing" constant="20" id="BeG-XZ-mN2"/>
+                <constraint firstAttribute="bottom" secondItem="5Vp-aq-Eni" secondAttribute="bottom" id="Nea-UF-C0f"/>
+                <constraint firstItem="y91-0U-P4q" firstAttribute="top" secondItem="cBA-zu-Pfu" secondAttribute="bottom" constant="8" id="OBm-1g-aP0"/>
+                <constraint firstItem="5Vp-aq-Eni" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OOQ-Hj-VSO"/>
+                <constraint firstItem="cBA-zu-Pfu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="S40-MT-XmQ"/>
+                <constraint firstAttribute="trailing" secondItem="y8x-Cc-FVT" secondAttribute="trailing" constant="20" id="XMF-rz-FFY"/>
+                <constraint firstAttribute="bottom" secondItem="SpQ-Ss-4KS" secondAttribute="bottom" constant="10" id="dnQ-EJ-sBU"/>
+                <constraint firstItem="SpQ-Ss-4KS" firstAttribute="leading" secondItem="5Vp-aq-Eni" secondAttribute="trailing" constant="20" id="fEZ-X1-VDN"/>
+                <constraint firstItem="5Vp-aq-Eni" firstAttribute="leading" secondItem="cBA-zu-Pfu" secondAttribute="trailing" constant="20" id="gNr-IC-Uow"/>
+                <constraint firstItem="y91-0U-P4q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="h41-sC-P0A"/>
+                <constraint firstAttribute="bottom" secondItem="y91-0U-P4q" secondAttribute="bottom" constant="10" id="lh6-rN-GOV"/>
+                <constraint firstItem="5Vp-aq-Eni" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s24-lT-ES7"/>
+                <constraint firstItem="y8x-Cc-FVT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="tXh-e9-7ia"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="213.768115942029" y="-95.788043478260875"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="grayLabelText">
+            <color red="0.57002515313199875" green="0.57566896652934529" blue="0.57566896652934529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

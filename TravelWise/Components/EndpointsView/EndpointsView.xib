@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EndpointsView" customModule="TravelWise" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="hZG-4z-SX8"/>
+                <outlet property="fromAirportCodeLabel" destination="1a2-YL-XbL" id="Ktw-cg-CFx"/>
+                <outlet property="fromInputView" destination="hJ4-a3-nfl" id="EpO-2I-yI1"/>
+                <outlet property="toAirportCodeLabel" destination="7ge-FM-Yze" id="vZg-V5-30b"/>
+                <outlet property="toInputView" destination="XAJ-ds-ZZO" id="lJR-G0-Vov"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="642" height="386"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81d-Cw-qt5" userLabel="Separating Line">
+                    <rect key="frame" x="0.0" y="192.66666666666666" width="642" height="1"/>
+                    <color key="backgroundColor" name="grayStar"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="QPU-rP-nBk"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" placeholderIntrinsicWidth="50" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1a2-YL-XbL" userLabel="FromAirportCode">
+                    <rect key="frame" x="572" y="163.66666666666666" width="50" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="URt-oe-kvL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                    <color key="textColor" name="grayUnselectedText"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="hJ4-a3-nfl" userLabel="FromInputView" customClass="InputView" customModule="TravelWise" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="564" height="191.66666666666666"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="LEAVING FROM"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="inputPlaceholder" value="BUCHAREST"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="XAJ-ds-ZZO" userLabel="ToInputView" customClass="InputView" customModule="TravelWise" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="194.66666666666663" width="564" height="191.33333333333337"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="GOING TO"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="inputPlaceholder" value="PORTO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" placeholderIntrinsicWidth="50" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ge-FM-Yze">
+                    <rect key="frame" x="572" y="357" width="50" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="7u5-Vg-S4Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="grayUnselectedText"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="grayUnselectedBackground"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="XAJ-ds-ZZO" secondAttribute="bottom" id="0c3-Yk-hT9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7ge-FM-Yze" secondAttribute="trailing" constant="20" id="28Z-H3-3ec"/>
+                <constraint firstItem="81d-Cw-qt5" firstAttribute="top" secondItem="hJ4-a3-nfl" secondAttribute="bottom" constant="1" id="55R-Mr-kg1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1a2-YL-XbL" secondAttribute="trailing" constant="20" id="CbC-ah-ngc"/>
+                <constraint firstItem="XAJ-ds-ZZO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DT1-bm-Ak2"/>
+                <constraint firstItem="hJ4-a3-nfl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="J9g-6F-uyB"/>
+                <constraint firstItem="81d-Cw-qt5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LxG-cv-pUF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7ge-FM-Yze" secondAttribute="bottom" constant="8" id="Uvs-Iz-bgu"/>
+                <constraint firstItem="hJ4-a3-nfl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bTD-GV-kkB"/>
+                <constraint firstItem="7ge-FM-Yze" firstAttribute="leading" secondItem="XAJ-ds-ZZO" secondAttribute="trailing" constant="8" id="cke-dw-EVB"/>
+                <constraint firstItem="81d-Cw-qt5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="isA-6A-fwI"/>
+                <constraint firstItem="1a2-YL-XbL" firstAttribute="leading" secondItem="hJ4-a3-nfl" secondAttribute="trailing" constant="8" id="lyt-zb-7xc"/>
+                <constraint firstItem="81d-Cw-qt5" firstAttribute="top" secondItem="1a2-YL-XbL" secondAttribute="bottom" constant="8" id="p9J-FK-Ldv"/>
+                <constraint firstItem="81d-Cw-qt5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tGg-HR-zS8"/>
+                <constraint firstItem="XAJ-ds-ZZO" firstAttribute="top" secondItem="81d-Cw-qt5" secondAttribute="bottom" constant="1" id="zk7-H3-cld"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="297.10144927536237" y="-36.684782608695656"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="grayStar">
+            <color red="0.6470588235294118" green="0.64313725490196083" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayUnselectedBackground">
+            <color red="0.94900000095367432" green="0.95300000905990601" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayUnselectedText">
+            <color red="0.62352941176470589" green="0.62745098039215685" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
