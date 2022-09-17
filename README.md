@@ -26,7 +26,9 @@ Upon pressing the **Search Button**, a new view displays a scrollable list of re
 
 The following video shows this section's functionality through an example of both round trip and one way flight searches.
 
-https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
+
+
+https://user-images.githubusercontent.com/98110966/190848497-f9c5de9f-1d1f-4fc7-a99d-08e4c0013faa.mp4
 
 
 
