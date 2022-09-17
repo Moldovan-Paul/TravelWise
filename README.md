@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-
 
 The two APIs used for making this app are https://rapidapi.com/tipsters/api/priceline-com-provider (flights) and https://rapidapi.com/apidojo/api/hotels4/ (accommodations).
 
-The first screen of each section makes an API call after the user has input 3 or more characters. A dropdown menu will subsequently display suggestions to the user based on the response recieved from the API for the given keyword.
+The first screen of each section makes an API call after the user has input 3 or more characters. A dropdown menu will subsequently display a scrollable list of suggestions to the user based on the response recieved from the API for the given keyword.
 <p align="center">
 <img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848808-f2b6b0fe-c5ed-49d8-8d48-641eed35d43b.png"><img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848671-f75e8dcd-ba87-4296-b205-e04f8b133318.png">
 </p>
