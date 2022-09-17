@@ -27,6 +27,8 @@ Users can double check their choice by observing the airports **3 letter IATA co
 
 Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the airline's name and logo, departure and arrival times, flight duration, number of stops and price (including the return flight if a search was performed for a round trip).
 
+If no matching results are found, an appropriate message is displayed. An example of this can be seen in the [API Usage](#api-usage) section.
+
 <p align="center">
 <img width="200" heigth="200" alt="Round Trip" src="https://user-images.githubusercontent.com/98110966/190850520-19161af0-f0c3-4991-baa6-e0665fd0ce1e.png">
 <img width="200" heigth="200" alt="Round Trip Results" src="https://user-images.githubusercontent.com/98110966/190850525-eb2ee9a7-0583-47bb-aab2-a9fd73077d1b.png">
@@ -54,6 +56,8 @@ The user is presented with multiple interactable fields that represent informati
 * **Number of Adult Guests**
 
 Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, adress, number of rooms left that are available, star rating and price for one night. 
+
+If no matching results are found, an appropriate message is displayed. An example of this can be seen in the [API Usage](#api-usage) section.
 
 The user can **sort the results** by pressing the button provided in the top right corner of the results screen and choosing one of the following 6 criteria: 
 * **Best Selling**
@@ -99,6 +103,11 @@ Upon pressing the **Search Button**, a new API call is made with the parameters 
 </p>
 
 
+If the response entity contains no data regarding available flights/accommodations, an appropriate message will be displayed.
+<p align="center">
+<img width="200" heigth="200" alt="No Flights Found Message" src="https://user-images.githubusercontent.com/98110966/190854829-f356ef8a-b252-43ce-a4ba-8d6cdb76037e.png">
+<img width="200" heigth="200" alt="No Accommodations Found Message" src="https://user-images.githubusercontent.com/98110966/190854524-20d07a3a-7ba3-4b3c-a9e2-d141f7b538df.png">
+</p>
 
 # Input Validation
 
@@ -108,7 +117,5 @@ A search cannot be performed unless the mandatory fields are filled with valid i
 <img width="200" heigth="200" alt="Flights Alert" src="https://user-images.githubusercontent.com/98110966/190849733-7b90156f-343e-46a8-91b9-f2456ac57160.png">
 <img width="200" heigth="200" alt="Accommodations Alert" src="https://user-images.githubusercontent.com/98110966/190849735-735971d6-e6d7-406c-a650-f8db31f991b6.png">
 </p>
-
-
 
 
