@@ -1,5 +1,7 @@
 # About TravelWise
+<p align="center">
 <img width="400" alt="Screenshot 2022-09-17 at 11 39 59" src="https://user-images.githubusercontent.com/98110966/190848301-835a4106-183c-4453-8a92-b6e849852533.png"><img width="400" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190847886-dadcb37b-1fe7-4645-8362-5285de3929be.png">
+</p>
 
 # Overview
 TravelWise is an iOS app that helps travellers gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and its **UIKit** framework. **Two APIs** are used for fetching **real time legitimate data**. More about API usage [here](#api-usage).
@@ -62,7 +64,9 @@ https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-
 The two APIs used for making this app are https://rapidapi.com/tipsters/api/priceline-com-provider (flights) and https://rapidapi.com/apidojo/api/hotels4/ (accommodations).
 
 The first screen of each section makes an API call after the user has input 3 or more characters. A dropdown menu will subsequently display suggestions to the user based on the response recieved from the API for the given keyword.
-
+<p align="center">
+<img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848808-f2b6b0fe-c5ed-49d8-8d48-641eed35d43b.png"><img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848671-f75e8dcd-ba87-4296-b205-e04f8b133318.png">
+</p>
 
 
 
