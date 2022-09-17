@@ -26,7 +26,7 @@ Upon pressing the **Search Button**, a new view displays a scrollable list of re
 
 ### Flights Section Demo
 
-The following video shows this section's functionality through an example of both round trip and one way flight searches.
+The following video shows this section's functionality through an example of both round trip and one way flight searches. When the user scrolls to the bottom of the first few available results, more are loaded (infinite scrolling).
 
 
 
@@ -55,7 +55,7 @@ The user can **sort the results** by pressing the button provided in the top rig
 
 ### Accommodations Section Demo
 
-The following video shows this section's functionality through an example of an accommodation search.
+The following video shows this section's functionality through an example of an accommodation search. When the user scrolls to the bottom of the first few available results, more are loaded (infinite scrolling).
 
 https://user-images.githubusercontent.com/98110966/190646451-39838129-dd39-4143-abdd-522bdc44219e.mp4
 
