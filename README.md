@@ -67,7 +67,7 @@ The first screen of each section makes an API call after the user has input 3 or
 <p align="center">
 <img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848808-f2b6b0fe-c5ed-49d8-8d48-641eed35d43b.png"><img width="200" heigth="200" alt="Screenshot 2022-09-17 at 11 20 22" src="https://user-images.githubusercontent.com/98110966/190848671-f75e8dcd-ba87-4296-b205-e04f8b133318.png">
 </p>
-Upon pressing the Search Button, a new request is made with the parameters chosen by the user and the response entity is used for filling the results screen's cells.
+Upon pressing the Search Button, a new API call is made with the parameters chosen by the user and the response entity is used for filling the results screen's cells. For the accommodations section, each time the user choses a sorting criteria, a new API call is made with said criteria, keeping other parameters unchanged.
 
 
 
