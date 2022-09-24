@@ -93,7 +93,7 @@ The first screen of each section makes an API call after the user has input 3 or
 </p>
 
 
-Upon pressing the **Search Button**, a new API call is made with the parameters chosen by the user and the response entity is used for filling the results screen's cells. For the accommodations section, each time the user choses a **sorting criteria**, a new API call is made with said criteria, keeping other parameters unchanged.
+Upon pressing the **Search Button**, a new API call is made with the parameters chosen by the user and the response entity is used for filling the results screen's cells. For the accommodations section, each time the user choses a **sorting criterion**, a new API call is made with said criteria, keeping other parameters unchanged.
 
 
 **Infinite scrolling** is implemented. Each time the user scrolls to the bottom of the result list, a new API call is made, loading more data. An **activity indicator** informs the user that more data is loading. For video demonstration refer to the [Flights Section Demo](#flights-section-demo) or [Accommodations Section Demo](#accommodations-section-demo).
