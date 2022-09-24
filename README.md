@@ -55,7 +55,7 @@ The user is presented with multiple interactable fields that represent informati
 * **Check Out Date**
 * **Number of Adult Guests**
 
-Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, adress, number of rooms left that are available, star rating and price for one night. 
+Upon pressing the **Search Button**, a new view displays a scrollable list of results. Each result contains the accommodation's name and logo, address, number of rooms left that are available, star rating and price for one night. 
 
 If no matching results are found, an appropriate message is displayed. An example of this can be seen in the [API Usage](#api-usage) section.
 
