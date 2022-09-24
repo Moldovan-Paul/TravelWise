@@ -4,7 +4,7 @@
 </p>
 
 # Overview
-**TravelWise** is an iOS app that allows travelers to gather information regarding flights and accommodations available around the globe. It is built using the **Swift** programming language and the **UIKit** framework. **Two APIs** are used for fetching **real-time legitimate data**. More about API usage [here](#api-usage). This app was made in **collaboration** with Bogdan Fomin, a Computer Science student from Iasi, Romania. I worked on the [Accommodations Section](#accommodations-section), while he was tasked with the [Flights Section](#flights-section). We strived to design and implement a **fluent**, **user-friendly** UI. I also implemented asynchronous downloading of images and a local image cache to remove scrolling lag, **boosting overall user experience**.
+**TravelWise** is an iOS app that allows travelers to gather information regarding flights and accommodation available around the globe. It is built using the **Swift** programming language and the **UIKit** framework. **Two APIs** are used for fetching **real-time legitimate data**. More about API usage [here](#api-usage). This app was made in **collaboration** with Bogdan Fomin, a Computer Science student from Iasi, Romania. I worked on the [Accommodations Section](#accommodations-section), while he was tasked with the [Flights Section](#flights-section). We strived to design and implement a **fluent**, **user-friendly** UI. I also implemented asynchronous downloading of images and a local image cache to remove scrolling lag, **boosting overall user experience**.
 
 FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHORS: 
 
